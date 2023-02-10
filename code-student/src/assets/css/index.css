@@ -1,0 +1,19 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(239, 234, 234, 0.954); */
+  background-color: transparent;
+  min-width: 1125px;
+}
+.el-breadcrumb {
+  font-weight: 400;
+  margin: 0 5px;
+}
