@@ -1,0 +1,65 @@
+{
+  "prettier.configPath": "C:\\Users\\1911y\\.prettierrc",
+  // 安装Prettier配置
+  "eslint.alwaysShowStatus": true,
+  "prettier.trailingComma": "none",
+  "prettier.semi": false,
+
+  // 每行文字个数超出此限制将会被迫换行
+  "prettier.printWidth": 300,
+  // 使用单引号替换双引号
+  "prettier.singleQuote": true,
+  "prettier.arrowParens": "avoid",
+  // 设置 .vue 文件中，HTML代码的格式化插件
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.ignoreProjectWarning": true,
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "trailingComma": "none",
+      "singleQuote": true,
+      "semi": false,
+      "arrowParens": "avoid",
+      "printWidth": 300
+    },
+    "js-beautify-html": {
+      "wrap_attributes": false
+    }
+  },
+  "editor.unicodeHighlight.allowedLocales": {
+    "zh-hans": true
+  },
+  "explorer.confirmDelete": false,
+  "cssrem.rootFontSize": 132,
+  "less.compile": {
+    "out": "../css/" //设置导出css路径
+  },
+  "px2vw.toFixedNum": 6,
+  "cssrem.fixedDigits": 6,
+  "express.portNumber": 8080,
+  "cssrem.vwDesign": 1200,
+  "php.validate.executablePath": "C:/server/php5/php.exe",
+  "previewServer.browsers": ["chrome"],
+  "liveServer.settings.CustomBrowser": "chrome",
+  "open-in-browser.default": "Google Chrome",
+  "liveServer.settings.proxy": {
+    "enable": true,
+    "baseUri": "/",
+    "proxyUri": "http://127.0.0.1:8080"
+  },
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "vscode-icons"
+}
